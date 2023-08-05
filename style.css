@@ -61,13 +61,13 @@ nav ul li a:hover {
     width: 100%;
     height: 500px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
 .home_text{
     text-align: left;
-
-    padding-top: 100px;
+    width: 60%;
+    padding-top: 50px;
 }
 .home_text h1{
     font-size: 80px;
@@ -75,7 +75,6 @@ nav ul li a:hover {
 .home_text p{
     color: #afafaf;
     font-size: 40px;
-    width: 50%;
 }
 .home_text p span{
     font-weight: bolder;
@@ -179,32 +178,40 @@ footer {
     }
 
     .hero{
-        padding-left: 10px;
+        padding-left: 20px;
     }
 
     .home_text{
         text-align: left ;
         padding-right: 20px;
+        width: 50%;
     }
 
     .home_text h1{
         color: #ffffff;
-        font-size: 50px;
+        font-size: 25px;
         padding-top: 0px;
     }
 
-    .home_text p{
+    .about_me_card{
+        padding: 15%;
+        background: rgb(197, 197, 197);
+        border-radius: 50px 0px 0px 50px;
+        box-shadow: #000000;
+    }
+    .about_me_card p{
+        color: #000000;
         padding-top:0px;
         font-size: 20px;
-        width: 60%;
         text-align: justify;
+        font-weight: bolder;
     }
 
     nav ul li {
         margin: 10px 0;
     }
     .hero_img{
-        height: 50vh;
+        height: 43vh;
 
     }
 
