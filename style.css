@@ -178,21 +178,25 @@ footer {
         right: 0;
     }
 
+    .hero{
+        padding-left: 10px;
+    }
+
     .home_text{
-        text-align: right ;
+        text-align: left ;
         padding-right: 20px;
     }
 
     .home_text h1{
-        color: #555555;
+        color: #ffffff;
         font-size: 50px;
-        padding-top: 200px;
+        padding-top: 0px;
     }
 
     .home_text p{
-        padding-top:5px;
+        padding-top:0px;
         font-size: 20px;
-        width: 100%;
+        width: 60%;
         text-align: justify;
     }
 
@@ -201,7 +205,7 @@ footer {
     }
     .hero_img{
         height: 50vh;
-        right: -13vh;
+        right: -11vh;
     }
 
 
