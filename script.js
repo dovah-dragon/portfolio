@@ -58,13 +58,17 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // Get the hamburger menu and menu element
 const hamburger = document.querySelector('.icon');
-const menu = document.querySelector('.menu');
+const menu = document.querySelector('.menu_mobile');
 
 // Add a click event listener to the hamburger menu
 hamburger.addEventListener('click', function() {
   // Toggle the 'active' class on the menu element
   menu.classList.toggle('active');
-  //menu.style.display="block";
+  // menu.style.right='0px';
 });
+
+function closeNavBar() {
+  menu.classList.toggle('active');
+}
 
   
