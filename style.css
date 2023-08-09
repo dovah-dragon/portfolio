@@ -162,17 +162,25 @@ footer {
 /* Media Queries for Responsive Design */
 @media screen and (max-width: 768px) {
     .menu {
-        display: none;
+        display: none;    
+    }
+    .menu_mobile{
         position: fixed;
         top: 0;
-        right: -80px; /* Initially hidden outside the viewport */
-        width: 80px;
+        right: -50%; /* Initially hidden outside the viewport */
+        width: 50%;
         height: 100vh;
-        background-color: #2c2c2ca9;
+        background-color: #b4b4b425;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-        transition:13s ease; /* Slide animation */
-      }
-    .menu.active{
+        transition:.8s ease; /* Slide animation */
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-top-left-radius: 50px;
+    }
+    .menu_mobile li{
+        margin: 50px;
+    }
+    .active{
         display: block;
         right: 0;
     }
