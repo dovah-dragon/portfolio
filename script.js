@@ -64,11 +64,12 @@ const menu = document.querySelector('.menu_mobile');
 hamburger.addEventListener('click', function() {
   // Toggle the 'active' class on the menu element
   menu.classList.toggle('active');
-  // menu.style.right='0px';
+  //menu.style.display="block";
 });
 
-function closeNavBar() {
+function closeSB(){
   menu.classList.toggle('active');
+  console.log('!!!!')
 }
 
   
