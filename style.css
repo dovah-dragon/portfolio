@@ -161,6 +161,24 @@ footer {
     background-color: #333;
     color: #fff;
 }
+/* Slide Show */
+  .slideshow-container {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Style for each slide */
+  .mySlides{
+    display: none;
+  }
+
+  /* Style for slide images */
+  .mySlides img {
+    width: 100%;
+    height: auto;
+  }
+
 
 /* Media Queries for Responsive Design */
 @media screen and (max-width: 768px) {
