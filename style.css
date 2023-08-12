@@ -30,6 +30,9 @@ nav img{
     justify-content: right;
     padding: 10px 30px 0px 0px;
 }
+.menu_mobile{
+    display: none;
+}
 
 nav ul li {
     margin: 0 10px;
@@ -97,8 +100,10 @@ nav ul li a:hover {
 
 /* Portfolio Section */
 #portfolio {
-    padding: 50px;
     color: #fff;
+}
+#portfolio h2{
+    padding: 0px 50px;
 }
 
 .project {
@@ -165,6 +170,7 @@ footer {
         display: none;    
     }
     .menu_mobile{
+        display: block;
         position: fixed;
         top: 0;
         right: -50%; /* Initially hidden outside the viewport */
