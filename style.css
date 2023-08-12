@@ -100,8 +100,10 @@ nav ul li a:hover {
 
 /* Portfolio Section */
 #portfolio {
-    padding: 50px;
     color: #fff;
+}
+#portfolio h2{
+    padding: 0px 50px;
 }
 
 .project {

@@ -6,6 +6,7 @@
     <title>Your Portfolio</title>
     <!-- Add your custom CSS file here -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slideshow.css">
 </head>
 <body>
     
@@ -59,20 +60,41 @@
     <!-- Portfolio Section -->
     <section id="portfolio">
         <h2>Portfolio</h2>
-        <!-- Add your project showcase here -->
-        <div class="project">
-            <img src="project1.jpg" alt="Project 1">
-            <h3>Project 1</h3>
-            <p>Description of Project 1 goes here.</p>
+
+    <!-- Slide Show -->
+    <section class="container">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="slide-4" src="Images/4.jpg" alt="">
+                <img id="slide-5" src="Images/5.jpg" alt="">
+                <img id="slide-6" src="Images/6.jpg" alt="">
+            </div>
+
+            <div class="slider-nav">
+                <a href="#slide-4"></a>
+                <a href="#slide-5"></a>
+                <a href="#slide-6"></a>
+            </div>
         </div>
-        <div class="project">
-            <img src="project2.jpg" alt="Project 2">
-            <h3>Project 2</h3>
-            <p>Description of Project 2 goes here.</p>
-        </div>
-        <!-- Add more projects as needed -->
     </section>
 
+    <!-- Slide Show 2 -->
+    <section class="container">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="slide-1" src="Images/2.jpg" alt="">
+                <img id="slide-2" src="Images/1.jpg" alt="">
+                <img id="slide-3" src="Images/3.jpg" alt="">
+            </div>
+
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+            </div>
+        </div>
+    </section>
+   </section>
     <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Me</h2>
@@ -94,7 +116,7 @@
     <!-- Footer Section -->
     <footer>
         <!-- Add your copyright or credits here -->
-        <p>&copy; 2023 Kirti Sagar. All rights reserved. huh!!!</p>
+        <p>&copy; 2023 Kirti Sagar. All rights reserved.</p>
     </footer>
 
     <!-- Add your custom JavaScript file here if needed -->
