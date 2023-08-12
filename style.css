@@ -56,7 +56,7 @@ nav ul li a:hover {
 .hero{
     padding: 10px 0px 0px 50px;
     position: relative;
-    height: 100vh;
+    height: auto;
 }
 
 .home{
@@ -95,7 +95,7 @@ nav ul li a:hover {
 #about {
     padding: 50px;
     color: white;
-    height: 80vh;
+    height: auto;
 }
 
 /* Portfolio Section */
