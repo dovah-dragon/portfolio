@@ -1,0 +1,52 @@
+.project__container{
+    margin: 10px auto 50px auto;
+    padding: 20px;
+    width: 70%;
+    overflow: auto;
+    background-color: rgba(211, 211, 211, 0.349);
+    /* border: 2px solid white; */
+    /* border-radius: 30px; */
+    height: 80vh;
+}
+
+.card{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    /* border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.link{
+    margin: 20px 0 20px 0;
+    text-decoration:none;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+}
+
+.projectImage{
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    margin-bottom: -30px;
+    object-fit: cover;
+}
+
+.tag{
+    z-index: 3;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin: unset;
+    text-align: center;
+    padding: 3px;
+    color: black;
+    box-sizing: border-box;
+    opacity: .5;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
