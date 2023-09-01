@@ -20,6 +20,11 @@ const projectDetails = [
         image : 'https://images.unsplash.com/photo-1601987077677-5346c0c57d3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHJhZ29uJTVDfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60',
         href : 'https://dovah-dragon.github.io/RPG_Dragon_Repeller/'
     },
+    {
+        name : 'Project 5',
+        image : 'https://images.unsplash.com/photo-1552422535-c45813c61732?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGlhbm98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60',
+        href : 'https://dovah-dragon.github.io/Piano/'
+    },
 ]
 
 function renderCard() {
