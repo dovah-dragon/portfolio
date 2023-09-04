@@ -20,11 +20,6 @@ const projectDetails = [
         image : 'https://images.unsplash.com/photo-1601987077677-5346c0c57d3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHJhZ29uJTVDfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60',
         href : 'https://dovah-dragon.github.io/RPG_Dragon_Repeller/'
     },
-    {
-        name : 'Calculator',
-        image : 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FsY3VsYXRvcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60',
-        href : 'https://dovah-dragon.github.io/Calculator/'
-    },
 ]
 
 function renderCard() {
